@@ -1,4 +1,5 @@
 import React from "react";
+import {Button} from 'antd'
 export default class Life extends React.Component {
   constructor(props){
     super(props)
@@ -19,7 +20,7 @@ export default class Life extends React.Component {
       <div style={style}>
         <p>React生命周期介绍</p>
         <p>{this.state.count}</p>
-        <button onClick={this.handleClick}>点击加1</button>
+        <Button type='primary' onClick={this.handleClick}>点击加1</Button>
       </div>
     )
   }
