@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+一个基于antd的React后台管理系统.
 
 ## Available Scripts
 
