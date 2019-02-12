@@ -3,6 +3,7 @@ import { Row, Col} from 'antd'
 import Header from './common/layouts/Header'
 import Footer from './common/layouts/Footer'
 import Nav from './common/layouts/Nav'
+import Home from './common/layouts/Home'
 import './common/style/common.less'
 export default class App extends React.Component {
   render() {
@@ -13,7 +14,9 @@ export default class App extends React.Component {
          </Col>
          <Col span= {21} className='main'>
          <Header></Header>
-          <Row className='content'>内容</Row>
+          <Row className='content'>
+          <Home></Home>
+          </Row>
           <Footer></Footer>
          </Col>
       </Row>
