@@ -4,7 +4,7 @@ export default class Home extends React.Component{
   render(){
     return(
       <div className='home-wrap'>
-        我是主页
+        {this.props.children}
       </div>
     )
   }
