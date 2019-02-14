@@ -6,6 +6,7 @@ import Button from  './pages/ui/button/button'
 import Modal from  './pages/ui/modal/modal'
 import Spin from  './pages/ui/spin/spin'
 import Notification from  './pages/ui/notification/notification'
+import Message from  './pages/ui/message/message'
 import App from './App'
 export default class Router extends React.Component{
   render(){
@@ -20,6 +21,7 @@ export default class Router extends React.Component{
               <Route path='/admin/ui/modals' component={Modal}></Route>
               <Route path='/admin/ui/loading' component={Spin}></Route>
               <Route path='/admin/ui/notifications' component={Notification}></Route>
+              <Route path='/admin/ui/message' component={Message}></Route>
               <Route component={Nomatch}></Route>
               </Switch>
             </Admin>

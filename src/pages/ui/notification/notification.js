@@ -18,7 +18,7 @@ export default class Notifications extends React.Component{
   render(){
     return(
       <div>
-        <Card title='全局提示框' className='notifications-card'>
+        <Card title='全局通知提醒' className='notifications-card'>
           <Button type='primary' onClick={()=>{this.notificationTip('success')}}>Success</Button>
           <Button type='primary' onClick={()=>{this.notificationTip('info')}}>Info</Button>
           <Button type='primary' onClick={()=>{this.notificationTip('warning')}}>Warning</Button>
