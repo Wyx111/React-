@@ -44,7 +44,7 @@ export default class Header extends React.Component{
           <Col span={4}  className='crumbs-title'>首页</Col>
           <Col span={20} className='wecher'>
            <span className='crumbs-date'>{this.state.time}</span>
-           <img src={this.state.wether_pic} className='wecher-pic'/>
+           <img src={this.state.wether_pic} className='wecher-pic' alt=''/>
            <span className='wether-detail'>{this.state.wether_detail}</span>
           </Col>
           </div>

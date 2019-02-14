@@ -34,7 +34,7 @@ export default class Nav extends React.Component{
     return (
       <div>
         <div className='logo'>
-          <img src='http://react-china.org/uploads/default/38/c4b96a594bd352e0.png' className='img-logo'/>
+          <img src='http://react-china.org/uploads/default/38/c4b96a594bd352e0.png' className='img-logo' alt=''/>
         </div>
         <Menu theme='dark'>
           {this.state.menuTreeNode}
